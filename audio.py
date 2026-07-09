@@ -21,7 +21,7 @@ from pydub import AudioSegment
 
 
 # -------- configuration ------------------------------------------------------
-MODEL_TRANSCRIBE = "whisper-1"     # fastest + most accurate Whisper model
+MODEL_TRANSCRIBE = "gpt-4o-mini-transcribe"  # OpenAI GPT-4o mini transcription model
 MODEL_SUMMARISE = "gpt-4o-mini"    # cheaper; change to gpt-4o or gpt-4.0 if preferred
 OUTPUT_TXT      = "transcript.txt"
 OUTPUT_MD       = "summary.md"
